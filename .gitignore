@@ -1,0 +1,39 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+# ...except the released wheel: the README's primary install line is
+# `pip install kappa_c_audit/dist/kappa_c_audit-0.1.2-py3-none-any.whl`, so that
+# one artefact must be committed. Negating the directory itself is required --
+# git does not descend into a directory it has excluded, so a file-level rule
+# alone would never fire.
+!kappa_c_audit/dist/
+!kappa_c_audit/dist/kappa_c_audit-*.whl
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg
+
+# --- Result artefacts that must never be committed here ---
+# Expression matrices and model artefacts are NOT distributed with this repo.
+*.h5
+*.h5ad
+*.npz
+*.npy
+*.mtx
+*.mtx.gz
+*.xlsx
+*.loom
+*.zarr/
+data/_*            # scratch/intermediate result dumps (leading underscore)
+*.log
+
+# --- Editor / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

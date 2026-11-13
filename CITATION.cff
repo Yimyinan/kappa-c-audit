@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this code or these result tables, please cite the manuscript and this archive."
+title: "kappa-C dual-spectrum audit: code and curated result tables"
+abstract: >-
+  Reference code and curated result tables for a delivery-and-content audit of
+  gene-regulatory-network (GRN) prior injection in single-cell variational autoencoders.
+  Includes the standalone kappa-c-audit package, the analysis scripts that generate the
+  reported results and supplementary figures, and the processed audit outputs as JSON.
+authors:
+  - family-names: "Yan"
+    given-names: "Yinan"
+    affiliation: "State Key Laboratory Cultivation Base for Cell Differentiation Regulation, Henan Normal University, Xinxiang, Henan, China"
+  - family-names: "Wang"
+    given-names: "Lan"
+    affiliation: "State Key Laboratory Cultivation Base for Cell Differentiation Regulation, Henan Normal University, Xinxiang, Henan, China"
+    email: "wanglan@htu.edu.cn"
+version: "0.1.2"
+date-released: "2026-11-10"
+license: MIT
+keywords:
+  - single-cell VAE
+  - GRN prior
+  - kappa-C dual-spectrum diagnostic
+  - latent space
+  - spectral effective rank
+  - perturbation readiness
+repository-code: "https://github.com/Yimyinan/kappa-c-audit"

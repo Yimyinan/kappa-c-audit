@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kappa-c-audit"
+version = "0.1.2"
+description = "Dual-spectrum audit (kappa-C) for GRN-prior injection in single-cell VAEs, with the four-check prior-activity protocol (gradient, strength, structural bound, injection path)."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+    { name = "Yinan Yan" },
+    { name = "Lan Wang", email = "wanglan@htu.edu.cn" },
+]
+keywords = ["single-cell", "VAE", "GRN prior", "perturbation", "spectral diagnostic"]
+dependencies = ["numpy>=1.23", "scipy>=1.9", "scikit-learn>=1.2"]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+plot = ["matplotlib>=3.6"]
+
+# Homepage is the public repository.  The URL is baked into the wheel METADATA at
+# build time, so it must be correct before the wheel that ships in the archive is built.
+[project.urls]
+Homepage = "https://github.com/Yimyinan/kappa-c-audit"
