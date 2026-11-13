@@ -1,0 +1,110 @@
+{
+  "reference": "empty_e45",
+  "rows": [
+    {
+      "arm": "empty_e45",
+      "kappa_C_W": 1.0,
+      "C_percent": 0.0,
+      "kappa_C_Z": 1.0,
+      "verdict": "baseline-only",
+      "eff_rank": 2.4195315560225636,
+      "eff_rank_change_percent": 0.0,
+      "participation_ratio": 2.4195315560225636,
+      "mean_var": 1.5412013734578227,
+      "pc1_share": 0.6257474196767042,
+      "n_boosted": 0,
+      "weight_mode": "rank",
+      "prior_level": 2.0,
+      "geneWeight_nnz": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "geneWeight_nnz_by_iter": {
+        "0": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "1": []
+      },
+      "mean_epoch_s": 33.56545189539592
+    },
+    {
+      "arm": "real",
+      "kappa_C_W": 1.0002822017081183,
+      "C_percent": -0.028220170811832368,
+      "kappa_C_Z": 0.988904783031283,
+      "verdict": "vanilla-equivalent",
+      "eff_rank": 3.1554895405228147,
+      "eff_rank_change_percent": 30.41737491161647,
+      "participation_ratio": 3.1554895405228147,
+      "mean_var": 1.5241014098268235,
+      "pc1_share": 0.5367384082957478,
+      "n_boosted": 203,
+      "weight_mode": "direct",
+      "prior_level": 20.0,
+      "geneWeight_nnz": [
+        487200,
+        487200,
+        487200,
+        487200,
+        487200,
+        2436000
+      ],
+      "geneWeight_nnz_by_iter": {
+        "0": [
+          487200,
+          487200,
+          487200,
+          487200,
+          487200,
+          2436000
+        ],
+        "1": []
+      },
+      "mean_epoch_s": 30.416770645777383
+    },
+    {
+      "arm": "shuffled",
+      "kappa_C_W": 0.9876431663567425,
+      "C_percent": 1.2356833643257459,
+      "kappa_C_Z": 1.0183936365029134,
+      "verdict": "vanilla-equivalent",
+      "eff_rank": 3.028241087788775,
+      "eff_rank_change_percent": 25.158156348531403,
+      "participation_ratio": 3.028241087788775,
+      "mean_var": 1.5695496712989967,
+      "pc1_share": 0.5395987383326731,
+      "n_boosted": 203,
+      "weight_mode": "direct",
+      "prior_level": 20.0,
+      "geneWeight_nnz": [
+        487200,
+        487200,
+        487200,
+        487200,
+        487200,
+        2436000
+      ],
+      "geneWeight_nnz_by_iter": {
+        "0": [
+          487200,
+          487200,
+          487200,
+          487200,
+          487200,
+          2436000
+        ],
+        "1": []
+      },
+      "mean_epoch_s": 30.299124682744345
+    }
+  ]
+}

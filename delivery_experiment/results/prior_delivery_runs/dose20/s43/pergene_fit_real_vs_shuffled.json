@@ -1,0 +1,47 @@
+{
+  "real": "F:/UNAGI_Project/prior_delivery_runs/dose20\\s43\\real",
+  "shuffled": "F:/UNAGI_Project/prior_delivery_runs/dose20\\s43\\shuffled",
+  "aggregate_ratio": 1.0196760210613016,
+  "n_overlap": 1,
+  "rows": [
+    {
+      "label": "real targets (weighted in A, not B)",
+      "n": 202,
+      "mean": 0.017126577408049872,
+      "median": 0.011436282505113304,
+      "sd": 0.022571918372058686,
+      "frac_pos": 0.806930693069307,
+      "mean_over_sd_x": 10.783948259481951,
+      "mean_centered": 0.014949405109518222,
+      "median_centered": 0.009259110206581656,
+      "frac_pos_centered": 0.7425742574257426,
+      "r2_weighted_mean": 0.31750702519880875
+    },
+    {
+      "label": "shuffled targets (weighted in B, not A)",
+      "n": 202,
+      "mean": 0.0028412281265725826,
+      "median": 0.0007841721147754943,
+      "sd": 0.014145503572092424,
+      "frac_pos": 0.5099009900990099,
+      "mean_over_sd_x": 2.8547190772299995,
+      "mean_centered": 0.000664055828040934,
+      "median_centered": -0.0013930001837561545,
+      "frac_pos_centered": 0.4306930693069307,
+      "r2_weighted_mean": 0.25859116917043823
+    },
+    {
+      "label": "neither (unweighted in both)",
+      "n": 20122,
+      "mean": 0.005122644718701065,
+      "median": 0.002141832789657294,
+      "sd": 0.014242677659871313,
+      "frac_pos": 0.5925355332471921,
+      "mean_over_sd_x": 51.01973086008445,
+      "mean_centered": 0.002945472420169416,
+      "median_centered": -3.5339508874354664e-05,
+      "frac_pos_centered": 0.49821091342808865,
+      "r2_weighted_mean": 0.26501646399442913
+    }
+  ]
+}

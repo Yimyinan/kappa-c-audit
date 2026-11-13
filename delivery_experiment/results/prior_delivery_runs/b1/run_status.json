@@ -1,0 +1,26 @@
+{
+  "contrast/s42/real": {
+    "returncode": 0,
+    "minutes": 28.4
+  },
+  "contrast/s42/perm": {
+    "returncode": 0,
+    "minutes": 28.2
+  },
+  "contrast/s43/real": {
+    "returncode": 0,
+    "minutes": 28.2
+  },
+  "contrast/s43/perm": {
+    "returncode": 0,
+    "minutes": 28.3
+  },
+  "contrast/s44/real": {
+    "returncode": 0,
+    "minutes": 28.2
+  },
+  "contrast/s44/perm": {
+    "returncode": 0,
+    "minutes": 28.2
+  }
+}

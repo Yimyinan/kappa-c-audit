@@ -1,0 +1,22 @@
+{
+  "empty": {
+    "returncode": 0,
+    "seconds": 1733.8,
+    "started": "2026-10-27 04:31:59"
+  },
+  "graded": {
+    "returncode": 0,
+    "seconds": 1736.8,
+    "started": "2026-10-27 05:00:56"
+  },
+  "binary": {
+    "returncode": 0,
+    "seconds": 1731.8,
+    "started": "2026-10-27 05:29:48"
+  },
+  "shuffle": {
+    "returncode": 0,
+    "seconds": 1742.9,
+    "started": "2026-10-27 05:58:51"
+  }
+}

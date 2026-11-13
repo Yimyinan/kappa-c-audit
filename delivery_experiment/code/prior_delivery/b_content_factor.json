@@ -1,0 +1,46 @@
+{
+ "statistic": "effective rank (participation ratio) of cov(Z), final latent",
+ "family": "dose20_e45",
+ "seeds": [
+  "42",
+  "43",
+  "44"
+ ],
+ "arms": {
+  "empty_e45": {
+   "label": "no prior",
+   "per_seed": [
+    3.1137,
+    2.6589,
+    2.4195
+   ],
+   "mean": 2.7307,
+   "sd": 0.3526
+  },
+  "shuffled": {
+   "label": "degree-matched rewired prior",
+   "per_seed": [
+    3.4901,
+    2.5775,
+    3.0282
+   ],
+   "mean": 3.0319,
+   "sd": 0.4563
+  },
+  "real": {
+   "label": "real prior 20x",
+   "per_seed": [
+    4.5322,
+    3.4654,
+    3.1555
+   ],
+   "mean": 3.7177,
+   "sd": 0.7222
+  }
+ },
+ "delta_vs_no_prior": {
+  "rewired": -0.3012,
+  "real": -0.987
+ },
+ "content_increment": -0.6858
+}

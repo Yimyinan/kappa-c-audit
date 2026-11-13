@@ -1,0 +1,14 @@
+{
+  "probe/real_l0/s42": {
+    "returncode": 0,
+    "minutes": 5.6
+  },
+  "probe/real_l1/s42": {
+    "returncode": 0,
+    "minutes": 5.7
+  },
+  "probe/real_l10/s42": {
+    "returncode": 0,
+    "minutes": 5.7
+  }
+}

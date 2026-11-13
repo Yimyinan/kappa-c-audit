@@ -1,0 +1,26 @@
+{
+  "s42/real": {
+    "returncode": 0,
+    "minutes": 27.1
+  },
+  "s42/shuffled": {
+    "returncode": 0,
+    "minutes": 27.5
+  },
+  "s43/real": {
+    "returncode": 0,
+    "minutes": 26.7
+  },
+  "s43/shuffled": {
+    "returncode": 0,
+    "minutes": 28.3
+  },
+  "s44/real": {
+    "returncode": 0,
+    "minutes": 25.6
+  },
+  "s44/shuffled": {
+    "returncode": 0,
+    "minutes": 25.6
+  }
+}

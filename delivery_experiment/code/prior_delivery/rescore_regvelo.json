@@ -1,0 +1,100 @@
+{
+ "data": "adata_preprocessed_full.h5ad",
+ "n_cells": 1947,
+ "n_genes": 2000,
+ "readout": "Ridge(Z -> Ms), intercept on, alpha=1",
+ "latent_dim": {
+  "vanilla": 10,
+  "grn": 10
+ },
+ "load": {
+  "vanilla": {
+   "attr": {
+    "get_normalized_function_name_": "get_normalized_expression",
+    "history_": "{'train_loss_step':       train_loss_step\nepoch                \n0         7189.004395\n1         6346.169434\n2         6122.587891\n3          6420.39209\n4         5300.956543\n...               ...\n195      -7356.819824\n196       -7267.34082\n197      -7012.889648\n198      -7368.707031\n199      -7212.056152\n\n[200 rows x 1 columns], 'validation_loss':       validation_loss\nepoch                \n0         6942.552246\n1         6571.069824\n2         6246.528809\n3         5931.792969\n4         5620.680176\n...               ...\n195      -7168.746094\n196      -7167.545898\n197      -7171.273438\n198      -7172.601074\n199      -7172.871094\n\n[200 rows x 1 columns], 'elbo_validation':       elbo_validation\nepoch                \n0          3057.04126\n1         2812.663574\n2         2609.299072\n3         2416.540039\n4         2226.064941\n...               ...\n195       -7732.79541\n196      -7731.141602\n197      -7734.683105\n198      -7735.145996\n199      -7735.028809\n\n[200 rows x 1 columns], 'reconstruction_loss_validation':       reconstruction_loss_validation\nepoch                               \n0                        3011.526855\n1                        2752.731689\n2                        2546.647949\n3                        2355.066162\n4                        2168.990723\n...                              ...\n195                     -7770.296387\n196                     -7768.560059\n197                     -7771.450195\n198                     -7773.010742\n199                     -7772.675781\n\n[200 rows x 1 columns], 'kl_local_validation':       kl_local_validation\nepoch                    \n0               45.514462\n1               59.931824\n2               62.651184\n3               61.473755\n4               57.074203\n...                   ...\n195             37.501045\n196              37.41851\n197              36.76701\n198             37.864532\n199             37.647049\n\n[200 rows x 1 columns], 'kl_global_validation':       kl_global_validation\nepoch                     \n0                      0.0\n1                      0.0\n2                      0.0\n3                      0.0\n4                      0.0\n...                    ...\n195                    0.0\n196                    0.0\n197                    0.0\n198                    0.0\n199                    0.0\n\n[200 rows x 1 columns], 'train_loss_epoch':       train_loss_epoch\nepoch                 \n0          9841.869141\n1          6710.730957\n2          6382.905273\n3          6066.040527\n4          5758.788574\n...                ...\n195       -7259.027832\n196       -7264.511719\n197       -7260.387207\n198       -7264.307129\n199       -7271.724609\n\n[200 rows x 1 columns], 'elbo_train':         elbo_train\nepoch             \n0      5899.126465\n1      2907.571289\n2      2696.581787\n3      2499.392334\n4      2311.611328\n...            ...\n195    -7823.65918\n196    -7828.68457\n197   -7824.034668\n198   -7827.749023\n199    -7834.40625\n\n[200 rows x 1 columns], 'reconstruction_loss_train':       reconstruction_loss_train\nepoch                          \n0                   5865.101074\n1                   2844.648926\n2                   2632.248535\n3                   2435.974609\n4                    2251.53125\n...                         ...\n195                -7861.626465\n196                 -7866.73291\n197                 -7862.10791\n198                -7865.350098\n199                -7872.646484\n\n[200 rows x 1 columns], 'kl_local_train':       kl_local_train\nepoch               \n0          34.025154\n1          62.922253\n2          64.333351\n3          63.417828\n4          60.080116\n...              ...\n195        37.967056\n196         38.04847\n197         38.07341\n198        37.600864\n199        38.240261\n\n[200 rows x 1 columns], 'kl_global_train':       kl_global_train\nepoch                \n0                 0.0\n1                 0.0\n2                 0.0\n3                 0.0\n4                 0.0\n...               ...\n195               0.0\n196               0.0\n197               0.0\n198               0.0\n199               0.0\n\n[200 rows x 1 columns]}",
+    "init_params_": "{'kwargs': {'model_kwargs': {}}, 'non_kwargs': {'W': tensor([[0., 0., 0.,  ..., 0., 0., 0.],\n        [0., 0., 0.,  ..., 0., 0., 0.],\n        [0., 0., 0.,  ..., 0., 0., 0.],\n        ...,\n        [0., 0., 0.,  ..., 0., 0., 0.],\n        [0., 0., 0.,  ..., 0., 0., 0.],\n        [0., 0., 0.,  ..., 0., 0., 0.]]), 'regulators': None, 'soft_constraint': False, 'lam': 0, 'lam2': 0}}",
+    "is_trained_": "True",
+    "registry_": "{'scvi_version': '1.4.3', 'model_name': 'REGVELOVI', 'setup_args': {'spliced_layer': 'Ms', 'unspliced_layer': 'Mu'}, 'field_registries': defaultdict(<class 'dict'>, {'X': {'data_registry': {'attr_name': 'layers', 'attr_key': 'Ms'}, 'state_registry': {'n_obs': 1947, 'n_vars': 2000, 'column_names': array(['DPM1', 'GCLC', 'NFYA', ..., 'ACACA', 'MRPL45', 'WASH9P'],\n      shape=(2000,), dtype=object)}, 'summary_stats': {'n_vars': 2000, 'n_cells': 1947}}, 'U': {'data_registry': {'attr_name': 'layers', 'attr_key': 'Mu'}, 'state_registry': {'n_obs': 1947, 'n_vars': 2000, 'column_names': array(['DPM1', 'GCLC', 'NFYA', ..., 'ACACA', 'MRPL45', 'WASH9P'],\n      shape=(2000,), dtype=object)}, 'summary_stats': {'n_U': 2000}}}), 'setup_method_name': 'setup_anndata', '_scvi_uuid': '0c599650-9169-4301-8ba4-58a5027fa984'}",
+    "run_id_": "",
+    "run_name_": "run_2026-07-01_09-00-38",
+    "test_indices_": "[]",
+    "train_indices_": "[1167 1105 1179 ...  715  149 1660]",
+    "validation_indices_": "[1825  733 1882  610 1336 1464 1168  615  373 1908  178 1337  969 1423\n  229 1587  837 1673 1922  742 1527 1929 1744 1683  158  994  199 1924\n  440  521 1591 1067  231  484  407  887 1822 1358  115  515 1324 1232\n 1905  870  631  531  258  627  416 1193 1892  988  818  771  529  809\n  838 1039 1842 1696  756 1569 1565  422  688 1001  497  590 1829   60\n 1462 1156   66  612   87  861 1124  950 1033  512  702 1510  524 1799\n 1237 1035 1869  297 1707 1082  904 1459  119  191 1321  290 1148 1257\n   83  740  526  540   48  643 1411 1709  202  815   55 1674 1847  289\n  913 1624  632  143 1025 1525  960  798 1361  132 1763   90 1318 1652\n  820  293  218  413 1345 1506  270  217  543  873 1561 1841   10  623\n 1175 1759  530 1244  110 1217 1941  304  774   71 1377 1371  550 1357\n  131  320  384  209  477  487 1766 1051 1278 1907 1116 1590 1154  853\n 1742  768  998  999  684 1688 1420 1601  157  465 1509 1497  760 1333\n 1031 1013  259  748   28  797  737 1517  955 1658 1416 1115]"
+   },
+   "missing": 0,
+   "unexpected": 1
+  },
+  "grn": {
+   "attr": {
+    "get_normalized_function_name_": "get_normalized_expression",
+    "history_": "{'train_loss_step':       train_loss_step\nepoch                \n0         2916.391113\n1         2162.728271\n2          1961.17334\n3         1818.062256\n4         1711.148682\n...               ...\n195      -7814.698242\n196      -7816.293945\n197      -8063.568848\n198      -7638.263672\n199      -7615.953613\n\n[200 rows x 1 columns], 'validation_loss':       validation_loss\nepoch                \n0         3132.936279\n1         2302.905762\n2            2026.375\n3         1865.331787\n4         1704.299438\n...               ...\n195      -7569.337402\n196      -7608.813965\n197       -7619.41748\n198      -7608.631348\n199      -7594.828613\n\n[200 rows x 1 columns], 'elbo_validation':       elbo_validation\nepoch                \n0         2127.272949\n1         1584.519897\n2         1376.760986\n3         1247.145386\n4         1107.498779\n...               ...\n195      -8049.013184\n196      -8089.297852\n197      -8099.652344\n198      -8089.980957\n199      -8075.336914\n\n[200 rows x 1 columns], 'reconstruction_loss_validation':       reconstruction_loss_validation\nepoch                               \n0                        2104.069336\n1                        1550.231689\n2                        1334.814087\n3                        1199.685913\n4                         1058.10376\n...                              ...\n195                     -8087.425293\n196                     -8127.690918\n197                     -8138.009766\n198                     -8128.032715\n199                     -8113.671875\n\n[200 rows x 1 columns], 'kl_local_validation':       kl_local_validation\nepoch                    \n0               23.203648\n1               34.288162\n2               41.946884\n3               47.459415\n4               49.395081\n...                   ...\n195             38.412231\n196             38.393238\n197             38.357529\n198             38.051811\n199             38.334877\n\n[200 rows x 1 columns], 'kl_global_validation':       kl_global_validation\nepoch                     \n0                      0.0\n1                      0.0\n2                      0.0\n3                      0.0\n4                      0.0\n...                    ...\n195                    0.0\n196                    0.0\n197                    0.0\n198                    0.0\n199                    0.0\n\n[200 rows x 1 columns], 'train_loss_epoch':       train_loss_epoch\nepoch                 \n0          4082.025635\n1          2432.269775\n2          2049.040527\n3          1886.521973\n4          1767.531494\n...                ...\n195       -7729.300781\n196       -7755.162109\n197       -7750.041504\n198       -7744.367188\n199        -7757.71875\n\n[200 rows x 1 columns], 'elbo_train':         elbo_train\nepoch             \n0      2502.922852\n1      1606.718506\n2      1378.615479\n3      1258.795898\n4      1163.040161\n...            ...\n195   -8202.619141\n196   -8228.213867\n197   -8223.524414\n198   -8217.620117\n199    -8231.47168\n\n[200 rows x 1 columns], 'reconstruction_loss_train':       reconstruction_loss_train\nepoch                          \n0                    2488.32251\n1                   1574.925171\n2                   1338.246948\n3                   1213.069336\n4                   1114.209473\n...                         ...\n195                -8241.727539\n196                -8266.901367\n197                -8262.553711\n198                -8256.958008\n199                 -8270.40625\n\n[200 rows x 1 columns], 'kl_local_train':       kl_local_train\nepoch               \n0          14.600254\n1          31.793344\n2          40.368546\n3          45.726562\n4          48.830742\n...              ...\n195        39.108131\n196        38.687866\n197        39.029526\n198        39.337734\n199        38.934158\n\n[200 rows x 1 columns], 'kl_global_train':       kl_global_train\nepoch                \n0                 0.0\n1                 0.0\n2                 0.0\n3                 0.0\n4                 0.0\n...               ...\n195               0.0\n196               0.0\n197               0.0\n198               0.0\n199               0.0\n\n[200 rows x 1 columns]}",
+    "init_params_": "{'kwargs': {'model_kwargs': {}}, 'non_kwargs': {'W': tensor([[0., 0., 0.,  ..., 0., 0., 0.],\n        [0., 0., 0.,  ..., 0., 0., 0.],\n        [0., 0., 0.,  ..., 0., 0., 0.],\n        ...,\n        [0., 0., 0.,  ..., 0., 0., 0.],\n        [0., 0., 0.,  ..., 0., 0., 0.],\n        [0., 0., 0.,  ..., 0., 0., 0.]]), 'regulators': None, 'soft_constraint': True, 'lam': 0.1, 'lam2': 0.01}}",
+    "is_trained_": "True",
+    "registry_": "{'scvi_version': '1.4.3', 'model_name': 'REGVELOVI', 'setup_args': {'spliced_layer': 'Ms', 'unspliced_layer': 'Mu'}, 'field_registries': defaultdict(<class 'dict'>, {'X': {'data_registry': {'attr_name': 'layers', 'attr_key': 'Ms'}, 'state_registry': {'n_obs': 1947, 'n_vars': 2000, 'column_names': array(['DPM1', 'GCLC', 'NFYA', ..., 'ACACA', 'MRPL45', 'WASH9P'],\n      shape=(2000,), dtype=object)}, 'summary_stats': {'n_vars': 2000, 'n_cells': 1947}}, 'U': {'data_registry': {'attr_name': 'layers', 'attr_key': 'Mu'}, 'state_registry': {'n_obs': 1947, 'n_vars': 2000, 'column_names': array(['DPM1', 'GCLC', 'NFYA', ..., 'ACACA', 'MRPL45', 'WASH9P'],\n      shape=(2000,), dtype=object)}, 'summary_stats': {'n_U': 2000}}}), 'setup_method_name': 'setup_anndata', '_scvi_uuid': '0c599650-9169-4301-8ba4-58a5027fa984'}",
+    "run_id_": "",
+    "run_name_": "run_2026-07-01_11-01-39",
+    "test_indices_": "[]",
+    "train_indices_": "[1126 1208 1714 ...  882  971 1589]",
+    "validation_indices_": "[1507 1661  333  573  843 1050 1352 1733  562  664  652  860 1427 1093\n 1645 1039  134   57  413   10  164  961 1012 1327  519 1907 1750   18\n 1100  256 1438  157 1447   68 1686  303  541 1909 1163 1799  223  868\n  239  353 1060  418 1308  970  163 1638  265 1944  649 1184 1844  963\n  881 1013 1073 1411 1026 1684  607  205  493  808 1900  755 1737  250\n 1061 1779  485  854 1375  450 1606  268  723 1255 1828  339 1065  553\n  957  835  915  220 1311  203 1133  596 1072  685 1206 1328 1121  612\n  842 1836  366 1420  669  272 1348 1666 1223  870  197 1425  668  936\n  448  736  315 1176 1019 1614 1845 1087 1653  845  181 1789  193 1538\n  470  630  130  455  429  686  951 1033 1946  191 1248 1513 1424  380\n  931  606   75 1482 1245  284 1543  354 1048  552  504  644  806  895\n  720  362  728  908   73  152 1531 1757  253  428 1201  898  124 1560\n  123 1022  813  425 1153  572 1852  509 1582 1781 1687   61 1105 1807\n 1378   36  341 1506 1717 1882  326  242 1727  597 1630 1481]"
+   },
+   "missing": 0,
+   "unexpected": 1
+  }
+ },
+ "note": "kappa-C(W) = sum R2(grn) / sum R2(vanilla), this paper's definition",
+ "decoder": {
+  "vanilla": {
+   "eig1": 16.790327570759008,
+   "eig2": 9.29502730971857,
+   "fro": 6.769921123366805
+  },
+  "grn": {
+   "eig1": 20.585740504086186,
+   "eig2": 8.59242539847934,
+   "fro": 6.79853733555514
+  },
+  "fro_delta": 0.028616212188334877
+ },
+ "conventions": {
+  "all_genes/insample": {
+   "sum_vanilla": 839.1851699179545,
+   "sum_grn": 795.5093398030565,
+   "kappa_CW": 0.9479544781288639,
+   "delta_kappa": 0.05204552187113609,
+   "n": 2000
+  },
+  "all_genes/heldout": {
+   "sum_vanilla": 824.9310964816297,
+   "sum_grn": 780.6075154049756,
+   "kappa_CW": 0.9462699596782129,
+   "delta_kappa": 0.053730040321787076,
+   "n": 2000
+  },
+  "varying_only/insample": {
+   "sum_vanilla": 839.1851699179545,
+   "sum_grn": 795.5093398030565,
+   "kappa_CW": 0.9479544781288639,
+   "delta_kappa": 0.05204552187113609,
+   "n": 2000
+  },
+  "varying_only/heldout": {
+   "sum_vanilla": 824.9310964816297,
+   "sum_grn": 780.6075154049756,
+   "kappa_CW": 0.9462699596782129,
+   "delta_kappa": 0.053730040321787076,
+   "n": 2000
+  }
+ },
+ "n_constant_genes": 0,
+ "per_gene_delta_insample": {
+  "mean": -0.02183791505744903,
+  "frac_pos": 0.3405,
+  "mean_varying": -0.02183791505744903
+ },
+ "per_gene_delta_heldout": {
+  "mean": -0.022161790538326984,
+  "frac_pos": 0.34,
+  "mean_varying": -0.022161790538326984
+ },
+ "seconds": 2.9
+}

@@ -1,0 +1,22 @@
+{
+  "d1": {
+    "factor": 1.0,
+    "returncode": 0,
+    "seconds": 1625.5
+  },
+  "d2": {
+    "factor": 2.0,
+    "returncode": 0,
+    "seconds": 1638.2
+  },
+  "d5": {
+    "factor": 5.0,
+    "returncode": 0,
+    "seconds": 1639.8
+  },
+  "d20": {
+    "factor": 20.0,
+    "returncode": 0,
+    "seconds": 1637.4
+  }
+}

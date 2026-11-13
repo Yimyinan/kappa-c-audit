@@ -1,0 +1,145 @@
+{
+  "reference": "d1",
+  "rows": [
+    {
+      "arm": "d1",
+      "kappa_C_W": 1.0,
+      "C_percent": 0.0,
+      "kappa_C_Z": 1.0,
+      "verdict": "baseline-only",
+      "eff_rank": 3.526869771159884,
+      "eff_rank_change_percent": 0.0,
+      "participation_ratio": 3.526869771159884,
+      "mean_var": 1.0442028823102125,
+      "pc1_share": 0.47901276323264613,
+      "n_boosted": 0,
+      "weight_mode": "direct",
+      "prior_level": 1.0,
+      "geneWeight_nnz": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "geneWeight_nnz_by_iter": {
+        "0": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "1": []
+      },
+      "mean_epoch_s": 30.986573272281223
+    },
+    {
+      "arm": "d2",
+      "kappa_C_W": 0.9923754285682458,
+      "C_percent": 0.7624571431754212,
+      "kappa_C_Z": 0.9874091787210449,
+      "verdict": "vanilla-equivalent",
+      "eff_rank": 3.3360141450395635,
+      "eff_rank_change_percent": -5.411473587173409,
+      "participation_ratio": 3.3360141450395635,
+      "mean_var": 1.031055510440075,
+      "pc1_share": 0.5068525205278193,
+      "n_boosted": 203,
+      "weight_mode": "direct",
+      "prior_level": 2.0,
+      "geneWeight_nnz": [
+        487200,
+        487200,
+        487200,
+        487200,
+        487200,
+        2436000
+      ],
+      "geneWeight_nnz_by_iter": {
+        "0": [
+          487200,
+          487200,
+          487200,
+          487200,
+          487200,
+          2436000
+        ],
+        "1": []
+      },
+      "mean_epoch_s": 31.1323991033766
+    },
+    {
+      "arm": "d5",
+      "kappa_C_W": 0.9977379927165645,
+      "C_percent": 0.22620072834355076,
+      "kappa_C_Z": 1.0157841106762788,
+      "verdict": "vanilla-equivalent",
+      "eff_rank": 3.7393748877449675,
+      "eff_rank_change_percent": 6.02531792704093,
+      "participation_ratio": 3.7393748877449675,
+      "mean_var": 1.0606846961730862,
+      "pc1_share": 0.4632782080489991,
+      "n_boosted": 203,
+      "weight_mode": "direct",
+      "prior_level": 5.0,
+      "geneWeight_nnz": [
+        487200,
+        487200,
+        487200,
+        487200,
+        487200,
+        2436000
+      ],
+      "geneWeight_nnz_by_iter": {
+        "0": [
+          487200,
+          487200,
+          487200,
+          487200,
+          487200,
+          2436000
+        ],
+        "1": []
+      },
+      "mean_epoch_s": 31.240670527352226
+    },
+    {
+      "arm": "d20",
+      "kappa_C_W": 0.9940978965349675,
+      "C_percent": 0.5902103465032504,
+      "kappa_C_Z": 0.9877265031728502,
+      "verdict": "vanilla-equivalent",
+      "eff_rank": 3.9790704217148516,
+      "eff_rank_change_percent": 12.82158627610035,
+      "participation_ratio": 3.9790704217148516,
+      "mean_var": 1.0313868615472774,
+      "pc1_share": 0.4507373385301356,
+      "n_boosted": 203,
+      "weight_mode": "direct",
+      "prior_level": 20.0,
+      "geneWeight_nnz": [
+        487200,
+        487200,
+        487200,
+        487200,
+        487200,
+        2436000
+      ],
+      "geneWeight_nnz_by_iter": {
+        "0": [
+          487200,
+          487200,
+          487200,
+          487200,
+          487200,
+          2436000
+        ],
+        "1": []
+      },
+      "mean_epoch_s": 31.041051212946574
+    }
+  ]
+}
