@@ -1,0 +1,315 @@
+{
+  "architecture": "plain MLP VAE (2x256, latent 64; Gaussian MSE)",
+  "dataset": "GSE150774 delivery matrix, 12,000 cells x 20,527 genes",
+  "prior_delivery": "weight multiplies the per-gene squared reconstruction error",
+  "boost": 10.0,
+  "epochs": 150,
+  "beta": 0.05,
+  "n_real_targets": 202,
+  "n_random_targets": 202,
+  "n_other_genes": 20122,
+  "overlap_excluded": [
+    "9061"
+  ],
+  "per_arm": [
+    {
+      "seed": 42,
+      "arm": "empty",
+      "sum_R2": 2368.15625,
+      "sum_R2_cv": 1290.283203125,
+      "mean_R2_other": 0.11382192373275757,
+      "mean_R2_real_targets": 0.2561074495315552,
+      "mean_R2_random_targets": 0.1280936598777771,
+      "trace_Z": 4.801193824157715,
+      "eff_rank_Z": 5.450736019495338,
+      "healthy": true
+    },
+    {
+      "seed": 42,
+      "arm": "real",
+      "sum_R2": 2365.40478515625,
+      "sum_R2_cv": 1187.568359375,
+      "mean_R2_other": 0.11340389400720596,
+      "mean_R2_real_targets": 0.28628525137901306,
+      "mean_R2_random_targets": 0.12585695087909698,
+      "trace_Z": 5.503442378605381,
+      "eff_rank_Z": 5.646806483578641,
+      "healthy": true
+    },
+    {
+      "seed": 42,
+      "arm": "random",
+      "sum_R2": 2345.427734375,
+      "sum_R2_cv": 1243.6961669921875,
+      "mean_R2_other": 0.11250519752502441,
+      "mean_R2_real_targets": 0.2521703839302063,
+      "mean_R2_random_targets": 0.14993248879909515,
+      "trace_Z": 4.808487612253103,
+      "eff_rank_Z": 5.333267004135915,
+      "healthy": true
+    },
+    {
+      "seed": 123,
+      "arm": "empty",
+      "sum_R2": 2357.34228515625,
+      "sum_R2_cv": 1251.0838623046875,
+      "mean_R2_other": 0.11329343169927597,
+      "mean_R2_real_targets": 0.2563656270503998,
+      "mean_R2_random_targets": 0.12687017023563385,
+      "trace_Z": 4.532248024195644,
+      "eff_rank_Z": 5.334227241877905,
+      "healthy": true
+    },
+    {
+      "seed": 123,
+      "arm": "real",
+      "sum_R2": 2395.93408203125,
+      "sum_R2_cv": 1230.96630859375,
+      "mean_R2_other": 0.11483418196439743,
+      "mean_R2_real_targets": 0.2936570644378662,
+      "mean_R2_random_targets": 0.12703604996204376,
+      "trace_Z": 5.313165748045954,
+      "eff_rank_Z": 5.952770214065769,
+      "healthy": true
+    },
+    {
+      "seed": 123,
+      "arm": "random",
+      "sum_R2": 2370.06298828125,
+      "sum_R2_cv": 1211.976318359375,
+      "mean_R2_other": 0.11370731145143509,
+      "mean_R2_real_targets": 0.25328880548477173,
+      "mean_R2_random_targets": 0.15136966109275818,
+      "trace_Z": 4.983597941054555,
+      "eff_rank_Z": 5.726339057418781,
+      "healthy": true
+    },
+    {
+      "seed": 456,
+      "arm": "empty",
+      "sum_R2": 2373.578857421875,
+      "sum_R2_cv": 1326.39306640625,
+      "mean_R2_other": 0.1141078844666481,
+      "mean_R2_real_targets": 0.25379693508148193,
+      "mean_R2_random_targets": 0.1288331151008606,
+      "trace_Z": 4.914269053979062,
+      "eff_rank_Z": 5.580982070079443,
+      "healthy": true
+    },
+    {
+      "seed": 456,
+      "arm": "real",
+      "sum_R2": 2359.18798828125,
+      "sum_R2_cv": 1257.400390625,
+      "mean_R2_other": 0.11305356025695801,
+      "mean_R2_real_targets": 0.2901048958301544,
+      "mean_R2_random_targets": 0.12607885897159576,
+      "trace_Z": 5.523477518470283,
+      "eff_rank_Z": 5.668885969916208,
+      "healthy": true
+    },
+    {
+      "seed": 456,
+      "arm": "random",
+      "sum_R2": 2351.2998046875,
+      "sum_R2_cv": 1212.23046875,
+      "mean_R2_other": 0.1128210723400116,
+      "mean_R2_real_targets": 0.2511325478553772,
+      "mean_R2_random_targets": 0.14886434376239777,
+      "trace_Z": 4.711539311239749,
+      "eff_rank_Z": 5.1972721775741295,
+      "healthy": true
+    }
+  ],
+  "paired": [
+    {
+      "seed": 42,
+      "real_prior_on_real_targets": 0.030177831649780273,
+      "real_prior_on_random_targets": -0.0022366985213011503,
+      "random_prior_on_real_targets": -0.003937074448913336,
+      "random_prior_on_random_targets": 0.0218388382345438,
+      "interaction": 0.05819044285453856,
+      "real_vs_random_on_real_targets": 0.03411490470170975,
+      "real_vs_random_on_random_targets": -0.02407553419470787,
+      "cv_real_vs_random_on_real_targets": 0.019555989652872086,
+      "cv_interaction": 0.027880597859621048,
+      "real_gt_random_on_real_genes": 168,
+      "random_gt_real_on_random_genes": 174,
+      "real_above_empty_on_real_genes": 160,
+      "random_above_empty_on_random_genes": 170,
+      "real_above_empty_on_random_genes": 81,
+      "random_above_empty_on_real_genes": 72,
+      "kappa_C_W_real": 0.9988381266593933,
+      "C_percent_real": 0.11618733406066895,
+      "kappa_C_W_random": 0.9904024600982666,
+      "C_percent_random": 0.9597539901733398,
+      "kappa_C_Z_real": 1.1462654040156073,
+      "kappa_C_Z_random": 1.0015191613508059
+    },
+    {
+      "seed": 123,
+      "real_prior_on_real_targets": 0.037291403859853745,
+      "real_prior_on_random_targets": 0.0001658708497416228,
+      "random_prior_on_real_targets": -0.0030768190044909716,
+      "random_prior_on_random_targets": 0.024499502032995224,
+      "interaction": 0.06470185404759832,
+      "real_vs_random_on_real_targets": 0.0403682217001915,
+      "real_vs_random_on_random_targets": -0.02433362975716591,
+      "cv_real_vs_random_on_real_targets": 0.030500473454594612,
+      "cv_interaction": 0.03809502720832825,
+      "real_gt_random_on_real_genes": 175,
+      "random_gt_real_on_random_genes": 175,
+      "real_above_empty_on_real_genes": 173,
+      "random_above_empty_on_random_genes": 181,
+      "real_above_empty_on_random_genes": 102,
+      "random_above_empty_on_real_genes": 104,
+      "kappa_C_W_real": 1.0163708925247192,
+      "C_percent_real": -1.6370892524719238,
+      "kappa_C_W_random": 1.0053962469100952,
+      "C_percent_random": -0.5396246910095215,
+      "kappa_C_Z_real": 1.1723025129431002,
+      "kappa_C_Z_random": 1.099586323265928
+    },
+    {
+      "seed": 456,
+      "real_prior_on_real_targets": 0.03630795702338219,
+      "real_prior_on_random_targets": -0.002754246350377798,
+      "random_prior_on_real_targets": -0.0026643946766853333,
+      "random_prior_on_random_targets": 0.020031243562698364,
+      "interaction": 0.06175784161314368,
+      "real_vs_random_on_real_targets": 0.03897234797477722,
+      "real_vs_random_on_random_targets": -0.0227854885160923,
+      "cv_real_vs_random_on_real_targets": 0.03484642133116722,
+      "cv_interaction": 0.03902842104434967,
+      "real_gt_random_on_real_genes": 170,
+      "random_gt_real_on_random_genes": 179,
+      "real_above_empty_on_real_genes": 170,
+      "random_above_empty_on_random_genes": 163,
+      "real_above_empty_on_random_genes": 70,
+      "random_above_empty_on_real_genes": 79,
+      "kappa_C_W_real": 0.993937075138092,
+      "C_percent_real": 0.6062924861907959,
+      "kappa_C_W_random": 0.9906137585639954,
+      "C_percent_random": 0.9386241436004639,
+      "kappa_C_Z_real": 1.1239672589757672,
+      "kappa_C_Z_random": 0.9587467148191319
+    }
+  ],
+  "stats": {
+    "interaction": {
+      "mean": 0.06155004617176019,
+      "sd": 0.003260675258343093,
+      "min": 0.05819044285453856,
+      "max": 0.06470185404759832,
+      "positive_seeds": 3,
+      "null_value": 0.0,
+      "paired_t": 32.69500907976697,
+      "two_sided_p": 0.0009341748759875877,
+      "ci95": [
+        0.05345007979673886,
+        0.06965001254678152
+      ]
+    },
+    "real_vs_random_on_real_targets": {
+      "mean": 0.03781849145889282,
+      "sd": 0.003282458227504482,
+      "min": 0.03411490470170975,
+      "max": 0.0403682217001915,
+      "positive_seeds": 3,
+      "null_value": 0.0,
+      "paired_t": 19.955638162747206,
+      "two_sided_p": 0.0025017082397353328,
+      "ci95": [
+        0.029664413188703796,
+        0.04597256972908185
+      ]
+    },
+    "real_prior_on_real_targets": {
+      "mean": 0.0345923975110054,
+      "sd": 0.003854618752530819,
+      "min": 0.030177831649780273,
+      "max": 0.037291403859853745,
+      "positive_seeds": 3,
+      "null_value": 0.0,
+      "paired_t": 15.543895230972387,
+      "two_sided_p": 0.0041133364286659,
+      "ci95": [
+        0.02501699370342358,
+        0.04416780131858722
+      ]
+    },
+    "random_prior_on_random_targets": {
+      "mean": 0.02212319461007913,
+      "sd": 0.0022476604170949847,
+      "min": 0.020031243562698364,
+      "max": 0.024499502032995224,
+      "positive_seeds": 3,
+      "null_value": 0.0,
+      "paired_t": 17.048170087862374,
+      "two_sided_p": 0.003423025195269382,
+      "ci95": [
+        0.016539696604765,
+        0.027706692615393255
+      ]
+    },
+    "cv_real_vs_random_on_real_targets": {
+      "mean": 0.02830096147954464,
+      "sd": 0.007878941231120082,
+      "min": 0.019555989652872086,
+      "max": 0.03484642133116722,
+      "positive_seeds": 3,
+      "null_value": 0.0,
+      "paired_t": 6.221483540454384,
+      "two_sided_p": 0.02487527518131317,
+      "ci95": [
+        0.008728586438654672,
+        0.04787333652043461
+      ]
+    },
+    "cv_interaction": {
+      "mean": 0.035001348704099655,
+      "sd": 0.0061843856166265854,
+      "min": 0.027880597859621048,
+      "max": 0.03902842104434967,
+      "positive_seeds": 3,
+      "null_value": 0.0,
+      "paired_t": 9.802770727289236,
+      "two_sided_p": 0.010246768935164364,
+      "ci95": [
+        0.019638483169831234,
+        0.05036421423836808
+      ]
+    },
+    "kappa_C_W_real": {
+      "mean": 1.0030486981074016,
+      "sd": 0.011794732916570036,
+      "min": 0.993937075138092,
+      "max": 1.0163708925247192,
+      "positive_seeds": 3,
+      "null_value": 1.0,
+      "paired_t": 0.4476998382507037,
+      "two_sided_p": 0.6981906770755586,
+      "ci95": [
+        0.973748957269327,
+        1.0323484389454762
+      ]
+    },
+    "kappa_C_W_random": {
+      "mean": 0.9954708218574524,
+      "sd": 0.008596319480866631,
+      "min": 0.9904024600982666,
+      "max": 1.0053962469100952,
+      "positive_seeds": 3,
+      "null_value": 1.0,
+      "paired_t": -0.9125727210213024,
+      "two_sided_p": 0.4577989290366791,
+      "ci95": [
+        0.9741163804527776,
+        1.0168252632621273
+      ]
+    }
+  },
+  "all_healthy": true,
+  "cross_architecture_delivery_pass": true,
+  "decision_rule": "PASS iff all arms pass latent health, mean content interaction > 0, real-vs-random target effect > 0 in at least 2/3 seeds, and both aggregate predictability ratios remain within 0.90-1.10."
+}

@@ -1,0 +1,34 @@
+{
+  "arm": "empty",
+  "seed": 42,
+  "shuffle_seed": 7,
+  "weight_mode": "rank",
+  "prior_level": 2.0,
+  "support_k": 0,
+  "support_realised": 0,
+  "normalized_total": false,
+  "max_iter": 1,
+  "epoch_initial": 5,
+  "epoch_iter": 1,
+  "per_stage": 2400,
+  "cpo": "off",
+  "n_cells": 12000,
+  "n_genes": 20527,
+  "prior": {
+    "n_boosted": 0
+  },
+  "basis": null,
+  "adversarial": false,
+  "align_stats": null,
+  "stagedata_final": {
+    "0": []
+  },
+  "epoch_seconds": [
+    31.110211610794067,
+    21.99680805206299,
+    22.133324146270752,
+    22.202640533447266,
+    22.460792064666748
+  ],
+  "total_seconds": 176.84448838233948
+}

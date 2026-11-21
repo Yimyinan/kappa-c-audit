@@ -1,0 +1,20 @@
+{
+    "dist": "ziln",
+    "device": "cuda:0",
+    "epoch_iter": 1,
+    "epoch_initial": 20,
+    "lr": 0.001,
+    "beta": 1,
+    "lr_dis": 0.001,
+    "task": "prior_empty",
+    "latent_dim": 64,
+    "graph_dim": 1024,
+    "hidden_dim": 256,
+    "BATCHSIZE": 512,
+    "max_iter": 1,
+    "GPU": 1,
+    "input_dim": 20527,
+    "GCN": true,
+    "adversarial": true,
+    "total_stage": 5
+}

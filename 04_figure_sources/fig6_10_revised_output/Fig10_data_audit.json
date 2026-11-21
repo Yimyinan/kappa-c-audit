@@ -1,0 +1,65 @@
+{
+  "datasets": {
+    "hematopoiesis": {
+      "cells_reported_in_source_json": 3000,
+      "genes": 20527,
+      "values": {
+        "grn_spectral": {
+          "block_share": 0.05268576686689593,
+          "n_covered": 1999
+        },
+        "grn_indicator": {
+          "block_share": 0.056187273355951584,
+          "n_covered": 1999
+        },
+        "permuted": {
+          "block_share": 0.039054929306572235,
+          "n_covered": 1999
+        },
+        "pca32": {
+          "block_share": 0.6068036999478046,
+          "n_covered": 1846
+        },
+        "nmf32": {
+          "block_share": 0.5735800151200634,
+          "n_covered": 1827
+        }
+      },
+      "grn_spectral_over_pca": 0.08682505869925941,
+      "grn_spectral_over_nmf": 0.09185425830407916,
+      "chance": 0.016008004002001
+    },
+    "melanoma": {
+      "cells_reported_in_source_json": 4000,
+      "genes": 22097,
+      "values": {
+        "grn_spectral": {
+          "block_share": 0.034648050346704616,
+          "n_covered": 2111
+        },
+        "grn_indicator": {
+          "block_share": 0.038381792321740806,
+          "n_covered": 2111
+        },
+        "permuted": {
+          "block_share": 0.028762926722019296,
+          "n_covered": 2111
+        },
+        "pca32": {
+          "block_share": 0.18842506447777826,
+          "n_covered": 2012
+        },
+        "nmf32": {
+          "block_share": 0.16060337272052755,
+          "n_covered": 1999
+        }
+      },
+      "grn_spectral_over_pca": 0.18388238551347716,
+      "grn_spectral_over_nmf": 0.2157367542149759,
+      "chance": 0.015158692562766462
+    }
+  },
+  "interpretation": "Block shares are reported within each basis-specific covered-gene block; covered-gene counts are displayed to make denominator differences explicit.",
+  "source_discrepancy": "The supplied hematopoiesis JSON reports n_cells=3,000, whereas the legacy make_fig_paper3.py label says 12k cells. The figure therefore omits a hematopoietic cell count pending source reconciliation.",
+  "caption_caution": "Avoid a blanket one-twentieth claim: GRN-spectral/data-fitted ratios differ between datasets."
+}

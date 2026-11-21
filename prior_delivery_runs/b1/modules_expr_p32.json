@@ -1,0 +1,16 @@
+{
+ "covered": 1768,
+ "constant_in_dataset": 231,
+ "rank": 32,
+ "var_share_expr": 0.5794527346744617,
+ "var_share_perm": 0.03160073137098942,
+ "var_share_annotation": 0.05902360193759902,
+ "var_share_annotation_perm": 0.044973825945398976,
+ "support_C": 1768,
+ "support_P": 1768,
+ "chance": 0.01809954751131222,
+ "fit_cells": 1500,
+ "held_cells": 1500,
+ "cos_expr_vs_annotation_max": 0.5612876536106803,
+ "cos_expr_vs_annotation_mean": 0.1461218319006457
+}

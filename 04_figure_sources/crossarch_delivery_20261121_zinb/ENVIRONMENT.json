@@ -1,0 +1,12 @@
+{
+  "python": "3.12.14",
+  "torch": "2.7.1+cu118",
+  "cuda": "11.8",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "gpu_memory_gb": 8,
+  "epochs": 150,
+  "beta": 0.001,
+  "boost": 10.0,
+  "training_time_minutes": 39.96,
+  "per_fit_minutes_range": [4.32, 4.60]
+}

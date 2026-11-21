@@ -1,12 +1,13 @@
 # Delivery experiment: results, scripts and number tables (v0.1.3 addition)
 
-This directory is the v0.1.3 addition to the figshare deposit. Everything outside it in the
+This directory originated as the v0.1.3 addition to the Figshare deposit and is
+retained and updated for the V49 snapshot. Everything outside it in the
 archive (`kappa_c_audit/`, `code/`, `data/`, and the top-level package files) is **byte-identical
 to the published v0.1.2 deposit** (`kappa-c-audit-code-data-v0.1.2.zip`, SHA-256
 `1d93e657663c68f36fc5ac60b4d56e171f8d5c9fc62684d7c794c60f53f2d778`). The v0.1.2 deposit covers
 the audit half of the manuscript; this directory covers the **delivery half** (73 trained models,
-the local tilt and the hard ceiling) that the merged manuscript reports, and which v0.1.2 did not
-contain.
+the local tilt and the support-dependent resolution bound) that the V49
+manuscript reports.
 
 ## Provenance
 

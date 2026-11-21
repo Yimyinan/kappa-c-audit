@@ -1,0 +1,21 @@
+{
+ "edges_total": 9396,
+ "edge_mode_counts": {
+  "Repression": 1922,
+  "Unknown": 4325,
+  "Activation": 3149
+ },
+ "edge_signed_fraction": 0.5397,
+ "support_genes": 203,
+ "edges_touching_support": 3726,
+ "support_edge_mode_counts": {
+  "Repression": 778,
+  "Unknown": 1667,
+  "Activation": 1281
+ },
+ "support_genes_with_known_direction": 160,
+ "support_genes_with_conflicting_direction": 83,
+ "support_genes_unknown_only": 43,
+ "support_genes_under_multiple_edges": 171,
+ "note": "A weight applied multiplicatively to the reconstruction likelihood cannot carry sign: the operator is the constraint, not the database. 54% of TRRUST edges do have a direction, and it is discarded."
+}

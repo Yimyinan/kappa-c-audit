@@ -1,0 +1,68 @@
+{
+  "lambda": [
+    0.1,
+    1.0,
+    10.0
+  ],
+  "bn_C": [
+    96.72680295157357,
+    96.87274009100956,
+    96.71824200550041
+  ],
+  "ln_C": [
+    95.64767776340486,
+    95.7979364508602,
+    95.38021844389566
+  ],
+  "bn_kappa_gap": [
+    0.00996159624728886,
+    0.008985220498300224,
+    0.010414602402891287
+  ],
+  "ln_kappa_gap": [
+    0.02114468611340035,
+    0.019879195098799672,
+    0.024005305706394083
+  ],
+  "target_kappa_gap": 2.0,
+  "celloracle": [
+    {
+      "tf": "GATA1",
+      "kappa_DK": 0.005994885384077643
+    },
+    {
+      "tf": "GFI1B",
+      "kappa_DK": 0.00942724149541481
+    },
+    {
+      "tf": "NFE2",
+      "kappa_DK": 0.00950453442219347
+    },
+    {
+      "tf": "KLF1",
+      "kappa_DK": 0.010744470578572406
+    },
+    {
+      "tf": "TAL1",
+      "kappa_DK": 0.01160670401997928
+    },
+    {
+      "tf": "GATA2",
+      "kappa_DK": 0.012008674498554308
+    },
+    {
+      "tf": "LMO2",
+      "kappa_DK": 0.018908450349428684
+    },
+    {
+      "tf": "RUNX1",
+      "kappa_DK": 0.018922644099743056
+    }
+  ],
+  "safety_factor": 24.840512768088892,
+  "changes": [
+    "Panel B now uses log scale so target=2 is visible; original linear 0-0.05 axis clipped it.",
+    "Panel D uses log scale to show small values relative to 0.5 threshold.",
+    "Panel D is explicitly labeled kappa_DK, distinct from Panel B kappa_gap."
+  ]
+}

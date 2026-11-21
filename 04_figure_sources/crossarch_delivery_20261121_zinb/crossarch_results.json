@@ -1,0 +1,255 @@
+{
+  "architecture": "ZINB VAE",
+  "likelihood": "zero-inflated negative binomial on reconstructed raw counts",
+  "dataset": "GSE150774 delivery matrix, 12,000 cells x 20,527 genes",
+  "boost": 10.0,
+  "epochs": 150,
+  "beta": 0.001,
+  "n_real_targets": 202,
+  "n_random_targets": 202,
+  "n_other_genes": 20122,
+  "per_arm": [
+    {
+      "seed": 42,
+      "arm": "empty",
+      "sum_R2": 1877.672607421875,
+      "sum_R2_cv": 1481.4310302734375,
+      "mean_R2_real_targets": 0.2182382196187973,
+      "mean_R2_random_targets": 0.10143640637397766,
+      "mean_R2_other": 0.0900980532169342,
+      "trace_Z": 27.989503162573893,
+      "eff_rank_Z": 7.440831820193379,
+      "healthy": true
+    },
+    {
+      "seed": 42,
+      "arm": "real",
+      "sum_R2": 1840.7730712890625,
+      "sum_R2_cv": 1478.2166748046875,
+      "mean_R2_real_targets": 0.22520911693572998,
+      "mean_R2_random_targets": 0.0994187742471695,
+      "mean_R2_other": 0.0882132276892662,
+      "trace_Z": 31.89996889328715,
+      "eff_rank_Z": 9.112783072580665,
+      "healthy": true
+    },
+    {
+      "seed": 42,
+      "arm": "random",
+      "sum_R2": 1868.37939453125,
+      "sum_R2_cv": 1476.18115234375,
+      "mean_R2_real_targets": 0.21509918570518494,
+      "mean_R2_random_targets": 0.10769671201705933,
+      "mean_R2_other": 0.08960452675819397,
+      "trace_Z": 26.795844294318904,
+      "eff_rank_Z": 7.617296031903733,
+      "healthy": true
+    },
+    {
+      "seed": 123,
+      "arm": "empty",
+      "sum_R2": 1887.576416015625,
+      "sum_R2_cv": 1480.603271484375,
+      "mean_R2_real_targets": 0.21846027672290802,
+      "mean_R2_random_targets": 0.10218797624111176,
+      "mean_R2_other": 0.09058011323213577,
+      "trace_Z": 28.505631701109454,
+      "eff_rank_Z": 8.361652379322221,
+      "healthy": true
+    },
+    {
+      "seed": 123,
+      "arm": "real",
+      "sum_R2": 1838.5404052734375,
+      "sum_R2_cv": 1474.4373779296875,
+      "mean_R2_real_targets": 0.22764232754707336,
+      "mean_R2_random_targets": 0.09973159432411194,
+      "mean_R2_other": 0.08807393163442612,
+      "trace_Z": 32.5407791237301,
+      "eff_rank_Z": 9.391483681659459,
+      "healthy": true
+    },
+    {
+      "seed": 123,
+      "arm": "random",
+      "sum_R2": 1864.428955078125,
+      "sum_R2_cv": 1473.8994140625,
+      "mean_R2_real_targets": 0.21449491381645203,
+      "mean_R2_random_targets": 0.10895982384681702,
+      "mean_R2_other": 0.0894019678235054,
+      "trace_Z": 27.56682782746113,
+      "eff_rank_Z": 8.28602566107425,
+      "healthy": true
+    },
+    {
+      "seed": 456,
+      "arm": "empty",
+      "sum_R2": 1887.9368896484375,
+      "sum_R2_cv": 1473.667724609375,
+      "mean_R2_real_targets": 0.21855458617210388,
+      "mean_R2_random_targets": 0.1016872301697731,
+      "mean_R2_other": 0.09060206264257431,
+      "trace_Z": 28.184647890259455,
+      "eff_rank_Z": 7.675174113435959,
+      "healthy": true
+    },
+    {
+      "seed": 456,
+      "arm": "real",
+      "sum_R2": 1839.970947265625,
+      "sum_R2_cv": 1475.2818603515625,
+      "mean_R2_real_targets": 0.22521379590034485,
+      "mean_R2_random_targets": 0.09998822212219238,
+      "mean_R2_other": 0.08816864341497421,
+      "trace_Z": 31.954817468375627,
+      "eff_rank_Z": 8.911758206963633,
+      "healthy": true
+    },
+    {
+      "seed": 456,
+      "arm": "random",
+      "sum_R2": 1857.3817138671875,
+      "sum_R2_cv": 1466.98681640625,
+      "mean_R2_real_targets": 0.21300506591796875,
+      "mean_R2_random_targets": 0.10775720328092575,
+      "mean_R2_other": 0.08907809108495712,
+      "trace_Z": 27.80745954951711,
+      "eff_rank_Z": 7.886401333851115,
+      "healthy": true
+    }
+  ],
+  "paired": [
+    {
+      "seed": 42,
+      "real_prior_on_real_targets": 0.0069709159433841705,
+      "real_prior_on_random_targets": -0.002017631893977523,
+      "random_prior_on_real_targets": -0.0031390166841447353,
+      "random_prior_on_random_targets": 0.006260301917791367,
+      "real_vs_random_on_real_targets": 0.010109933093190193,
+      "real_vs_random_on_random_targets": -0.008277933113276958,
+      "interaction": 0.018387867137789726,
+      "cv_real_vs_random_on_real_targets": 0.01215080451220274,
+      "cv_interaction": 0.018760310485959053,
+      "real_gt_random_on_real_genes": 135,
+      "random_gt_real_on_random_genes": 165,
+      "kappa_C_W_real": 0.9803482294082642,
+      "kappa_C_W_random": 0.9950506687164307
+    },
+    {
+      "seed": 123,
+      "real_prior_on_real_targets": 0.009182039648294449,
+      "real_prior_on_random_targets": -0.0024563800543546677,
+      "random_prior_on_real_targets": -0.003965366166085005,
+      "random_prior_on_random_targets": 0.006771849002689123,
+      "real_vs_random_on_real_targets": 0.013147406280040741,
+      "real_vs_random_on_random_targets": -0.009228228591382504,
+      "interaction": 0.02237563580274582,
+      "cv_real_vs_random_on_real_targets": 0.014743580482900143,
+      "cv_interaction": 0.022726023569703102,
+      "real_gt_random_on_real_genes": 145,
+      "random_gt_real_on_random_genes": 159,
+      "kappa_C_W_real": 0.9740217328071594,
+      "kappa_C_W_random": 0.9877369403839111
+    },
+    {
+      "seed": 456,
+      "real_prior_on_real_targets": 0.006659230217337608,
+      "real_prior_on_random_targets": -0.0016990092117339373,
+      "random_prior_on_real_targets": -0.005549520719796419,
+      "random_prior_on_random_targets": 0.006069975905120373,
+      "real_vs_random_on_real_targets": 0.01220875233411789,
+      "real_vs_random_on_random_targets": -0.007768984884023666,
+      "interaction": 0.019977737218141556,
+      "cv_real_vs_random_on_real_targets": 0.013888250105082989,
+      "cv_interaction": 0.020428232848644257,
+      "real_gt_random_on_real_genes": 147,
+      "random_gt_real_on_random_genes": 157,
+      "kappa_C_W_real": 0.974593460559845,
+      "kappa_C_W_random": 0.9838155508041382
+    }
+  ],
+  "stats": {
+    "real_vs_random_on_real_targets": {
+      "mean": 0.011822030569116274,
+      "sd": 0.001555225428307253,
+      "min": 0.010109933093190193,
+      "max": 0.013147406280040741,
+      "positive_seeds_vs_null": 3,
+      "paired_t": 13.166166924513822,
+      "two_sided_p": 0.0057193017851625595,
+      "ci95": [
+        0.007958636432385167,
+        0.01568542470584738
+      ]
+    },
+    "interaction": {
+      "mean": 0.020247080052892368,
+      "sd": 0.002007481980809573,
+      "min": 0.018387867137789726,
+      "max": 0.02237563580274582,
+      "positive_seeds_vs_null": 3,
+      "paired_t": 17.46913381627535,
+      "two_sided_p": 0.0032608360379680536,
+      "ci95": [
+        0.015260218358704055,
+        0.02523394174708068
+      ]
+    },
+    "cv_real_vs_random_on_real_targets": {
+      "mean": 0.013594211700061956,
+      "sd": 0.0013211607571665719,
+      "min": 0.01215080451220274,
+      "max": 0.014743580482900143,
+      "positive_seeds_vs_null": 3,
+      "paired_t": 17.82210471029449,
+      "two_sided_p": 0.00313355232909507,
+      "ci95": [
+        0.010312266439899855,
+        0.016876156960224056
+      ]
+    },
+    "cv_interaction": {
+      "mean": 0.02063818896810214,
+      "sd": 0.0019911758447505442,
+      "min": 0.018760310485959053,
+      "max": 0.022726023569703102,
+      "positive_seeds_vs_null": 3,
+      "paired_t": 17.952403331529332,
+      "two_sided_p": 0.003088440469416081,
+      "ci95": [
+        0.015691833961430993,
+        0.025584543974773284
+      ]
+    },
+    "kappa_C_W_real": {
+      "mean": 0.9763211409250895,
+      "sd": 0.0034992569774576565,
+      "min": 0.9740217328071594,
+      "max": 0.9803482294082642,
+      "positive_seeds_vs_null": 0,
+      "paired_t": -11.720484447760077,
+      "two_sided_p": 0.0072010856920175165,
+      "ci95": [
+        0.9676285047042814,
+        0.9850137771458976
+      ]
+    },
+    "kappa_C_W_random": {
+      "mean": 0.98886771996816,
+      "sd": 0.005702277218523697,
+      "min": 0.9838155508041382,
+      "max": 0.9950506687164307,
+      "positive_seeds_vs_null": 0,
+      "paired_t": -3.381399023638362,
+      "two_sided_p": 0.07743701837160756,
+      "ci95": [
+        0.9747024780867706,
+        1.0030329618495495
+      ]
+    }
+  },
+  "all_healthy": true,
+  "cross_architecture_delivery_pass": true,
+  "decision_rule": "PASS iff all arms pass latent-health checks; the content interaction is positive; the real-minus-random target effect is positive in >=2/3 seeds; fixed-latent cross-validated interaction is positive; and both aggregate decoder ratios remain within [0.90, 1.10].",
+  "health_gate": "ZINB-specific gate fixed after a no-prior calibration: effective rank >=2.5, sum R2 >=1000, latent sd >0.2, KL >0.1, finite weighted NLL."
+}

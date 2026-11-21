@@ -1,0 +1,69 @@
+{
+  "observed_points": [
+    {
+      "dose": 5.0,
+      "seed_index": 1,
+      "kappa": 0.9867133088935814,
+      "delta_kappa": -0.013286691106418558
+    },
+    {
+      "dose": 5.0,
+      "seed_index": 2,
+      "kappa": 0.9998736082281969,
+      "delta_kappa": -0.00012639177180306937
+    },
+    {
+      "dose": 5.0,
+      "seed_index": 3,
+      "kappa": 1.0056816374119006,
+      "delta_kappa": 0.005681637411900642
+    },
+    {
+      "dose": 20.0,
+      "seed_index": 1,
+      "kappa": 1.0041289881007818,
+      "delta_kappa": 0.004128988100781772
+    },
+    {
+      "dose": 20.0,
+      "seed_index": 2,
+      "kappa": 1.0042013419202171,
+      "delta_kappa": 0.00420134192021715
+    },
+    {
+      "dose": 20.0,
+      "seed_index": 3,
+      "kappa": 1.014482456644695,
+      "delta_kappa": 0.014482456644695052
+    },
+    {
+      "dose": 40.0,
+      "seed_index": 1,
+      "kappa": 0.9930405942808945,
+      "delta_kappa": -0.0069594057191054715
+    },
+    {
+      "dose": 40.0,
+      "seed_index": 2,
+      "kappa": 1.0026625794653883,
+      "delta_kappa": 0.0026625794653882817
+    },
+    {
+      "dose": 40.0,
+      "seed_index": 3,
+      "kappa": 1.0111541685265895,
+      "delta_kappa": 0.011154168526589459
+    }
+  ],
+  "support_fraction_varying": 0.011022622345337027,
+  "observed_delta_definition": "delta_kappa = kappa - 1",
+  "legacy_generator_conversion": "1 - kappa (sign inconsistent with y-axis; corrected)",
+  "panel_b_local_percent": [
+    0.04128751668604401,
+    -0.07854497696249407
+  ],
+  "panel_b_global_percent": [
+    0.3320695000645911,
+    -1.5644163114154068
+  ]
+}

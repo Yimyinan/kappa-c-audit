@@ -1,0 +1,47 @@
+{
+  "s42/k203": {
+    "k": 203,
+    "returncode": 0,
+    "minutes": 27.2
+  },
+  "s42/k1000": {
+    "k": 1000,
+    "returncode": 0,
+    "minutes": 27.0
+  },
+  "s42/k2027": {
+    "k": 2027,
+    "returncode": 0,
+    "minutes": 27.2
+  },
+  "s43/k203": {
+    "k": 203,
+    "returncode": 0,
+    "minutes": 27.0
+  },
+  "s43/k1000": {
+    "k": 1000,
+    "returncode": 0,
+    "minutes": 27.1
+  },
+  "s43/k2027": {
+    "k": 2027,
+    "returncode": 0,
+    "minutes": 27.0
+  },
+  "s44/k203": {
+    "k": 203,
+    "returncode": 0,
+    "minutes": 26.9
+  },
+  "s44/k1000": {
+    "k": 1000,
+    "returncode": 0,
+    "minutes": 27.9
+  },
+  "s44/k2027": {
+    "k": 2027,
+    "returncode": 0,
+    "minutes": 25.8
+  }
+}

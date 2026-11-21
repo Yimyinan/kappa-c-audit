@@ -1,0 +1,35 @@
+{
+  "42": {
+    "n_target": 202,
+    "raw_d": 0.01686008151151438,
+    "decile_excess_mean": 0.01195839778670141,
+    "decile_excess_sd": 0.023429781959424516,
+    "decile_excess_frac_pos": 0.6782178217821783,
+    "ols_resid_mean": 0.01312084659181068,
+    "ols_slope": -0.0036399253523630134,
+    "baseline_r2_real": 0.28314830107382094,
+    "baseline_r2_rest": 0.26397062892187706
+  },
+  "43": {
+    "n_target": 202,
+    "raw_d": 0.017126577408049872,
+    "decile_excess_mean": 0.011528773093216989,
+    "decile_excess_sd": 0.02225611463442649,
+    "decile_excess_frac_pos": 0.6732673267326733,
+    "ols_resid_mean": 0.012209724760510807,
+    "ols_slope": -0.005819255894562443,
+    "baseline_r2_real": 0.3003804477907589,
+    "baseline_r2_rest": 0.26501646399442913
+  },
+  "44": {
+    "n_target": 202,
+    "raw_d": 0.020080978984039894,
+    "decile_excess_mean": 0.010829691135827943,
+    "decile_excess_sd": 0.024827352519640883,
+    "decile_excess_frac_pos": 0.5792079207920792,
+    "ols_resid_mean": 0.01471277869570211,
+    "ols_slope": -0.0027364037894431576,
+    "baseline_r2_real": 0.29596335011029384,
+    "baseline_r2_rest": 0.2627104793909079
+  }
+}

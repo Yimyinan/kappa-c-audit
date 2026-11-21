@@ -1,27 +1,39 @@
 cff-version: 1.2.0
 message: "If you use this code or these result tables, please cite the manuscript and this archive."
-title: "kappa-C dual-spectrum audit: code and curated result tables"
+title: "Auditing gene-regulatory prior delivery and decoder response in single-cell variational autoencoders"
 abstract: >-
-  Reference code and curated result tables for a delivery-and-content audit of
-  gene-regulatory-network (GRN) prior injection in single-cell variational autoencoders.
-  Includes the standalone kappa-c-audit package, the analysis scripts that generate the
-  reported results and supplementary figures, and the processed audit outputs as JSON.
+  Reference code, audit package, figure generators, and curated result tables
+  for the V49 study of gene-regulatory prior delivery in single-cell variational
+  autoencoders. The archive includes the 33-configuration audit, the 73-fit
+  PG-UNAGI delivered-prior experiment, and Gaussian and ZINB cross-architecture
+  replications.
 authors:
   - family-names: "Yan"
     given-names: "Yinan"
-    affiliation: "State Key Laboratory Cultivation Base for Cell Differentiation Regulation, Henan Normal University, Xinxiang, Henan, China"
+    affiliation: "College of Life Sciences, Henan Normal University, Xinxiang, Henan, China"
+  - family-names: "Li"
+    given-names: "Yulin"
+    affiliation: "College of Life Sciences, Henan Normal University, Xinxiang, Henan, China"
+  - family-names: "Xue"
+    given-names: "Zhiyin"
+    affiliation: "College of Life Sciences, Henan Normal University, Xinxiang, Henan, China"
+  - family-names: "Li"
+    given-names: "Qiang"
+    affiliation: "College of Life Sciences, Henan Normal University, Xinxiang, Henan, China"
+  - family-names: "Song"
+    given-names: "Jingshuang"
+    affiliation: "College of Life Sciences, Henan Normal University, Xinxiang, Henan, China"
   - family-names: "Wang"
     given-names: "Lan"
-    affiliation: "State Key Laboratory Cultivation Base for Cell Differentiation Regulation, Henan Normal University, Xinxiang, Henan, China"
-    email: "wanglan@htu.edu.cn"
-version: "0.1.2"
-date-released: "2026-11-10"
+    affiliation: "College of Life Sciences, Henan Normal University, Xinxiang, Henan, China"
+version: "paper1-v49"
+date-released: "2026-11-21"
 license: MIT
 keywords:
   - single-cell VAE
-  - GRN prior
-  - kappa-C dual-spectrum diagnostic
-  - latent space
-  - spectral effective rank
+  - gene-regulatory prior
+  - prior delivery
+  - latent-space audit
+  - decoder response
   - perturbation readiness
 repository-code: "https://github.com/Yimyinan/kappa-c-audit"

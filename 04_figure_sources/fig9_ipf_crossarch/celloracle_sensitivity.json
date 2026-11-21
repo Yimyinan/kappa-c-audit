@@ -1,0 +1,65 @@
+{
+ "rows": [
+  {
+   "tf": "GATA1",
+   "kappa_original": 0.005994885384077643,
+   "numerator_norm": 2.867093086242676,
+   "gap_required_for_critical": 5.734186172485352,
+   "margin_factor_vs_audit_gap": 83.40443027117668
+  },
+  {
+   "tf": "KLF1",
+   "kappa_original": 0.010744470578572406,
+   "numerator_norm": 5.138613224029541,
+   "gap_required_for_critical": 10.277226448059082,
+   "margin_factor_vs_audit_gap": 46.535564162383686
+  },
+  {
+   "tf": "TAL1",
+   "kappa_original": 0.01160670401997928,
+   "numerator_norm": 5.5509819984436035,
+   "gap_required_for_critical": 11.101963996887207,
+   "margin_factor_vs_audit_gap": 43.07855176967738
+  },
+  {
+   "tf": "GFI1B",
+   "kappa_original": 0.00942724149541481,
+   "numerator_norm": 4.508639812469482,
+   "gap_required_for_critical": 9.017279624938965,
+   "margin_factor_vs_audit_gap": 53.03778419627717
+  },
+  {
+   "tf": "GATA2",
+   "kappa_original": 0.012008674498554308,
+   "numerator_norm": 5.743227005004883,
+   "gap_required_for_critical": 11.486454010009766,
+   "margin_factor_vs_audit_gap": 41.63656863712924
+  },
+  {
+   "tf": "LMO2",
+   "kappa_original": 0.018908450349428684,
+   "numerator_norm": 9.043089866638184,
+   "gap_required_for_critical": 18.086179733276367,
+   "margin_factor_vs_audit_gap": 26.443203475694
+  },
+  {
+   "tf": "NFE2",
+   "kappa_original": 0.00950453442219347,
+   "numerator_norm": 4.545605659484863,
+   "gap_required_for_critical": 9.091211318969727,
+   "margin_factor_vs_audit_gap": 52.60646947971275
+  },
+  {
+   "tf": "RUNX1",
+   "kappa_original": 0.018922644099743056,
+   "numerator_norm": 9.049878120422363,
+   "gap_required_for_critical": 18.099756240844727,
+   "margin_factor_vs_audit_gap": 26.42336860348123
+  }
+ ],
+ "gap_required_for_critical_max": 18.099756240844727,
+ "smallest_reference_gap": 449.607226,
+ "safety_factor": 24.840512768088892,
+ "verdict": "robust",
+ "claim_boundary": "We do NOT claim to have reproduced the published vanilla gap (478.2565); the closest decoder_unified reference differs by 3.0%. The subcritical verdict is instead reported as a bounded statement: even the smallest plausible reference gap exceeds the gap required for criticality by a factor of 25."
+}

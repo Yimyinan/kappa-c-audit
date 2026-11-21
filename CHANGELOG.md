@@ -7,6 +7,16 @@ script/docstring that actually computes each quantity — **not** here.
 
 ---
 
+## Paper 1 V49 repository refresh (2026-11-21)
+
+- Updated the project title and metadata to the V49 manuscript.
+- Added the Gaussian MLP and ZINB count-VAE delivered-prior experiments.
+- Added the V49 Author Summary and manuscript metadata.
+- Added the current figure generators, including the corrected Figure 1
+  estimand and Figure 7 panel title.
+- Added current PG-UNAGI delivered-prior code and JSON result summaries.
+
+
 ## Tool: `kappa-c-audit`
 
 | Version | Change |

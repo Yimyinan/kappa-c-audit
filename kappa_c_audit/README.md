@@ -1,8 +1,8 @@
 # kappa-c-audit
 
-A delivery-and-content audit finds gene-regulatory priors **present but unused
-in single-cell VAEs**,
-plus the **four-check prior-activity protocol**.
+Audit tooling for testing whether gene-regulatory priors are delivered to, and
+used by, single-cell VAE decoders, plus the **four-check prior-activity
+protocol**.
 
 It answers two questions for any trained generative model with a differentiable
 decoder:

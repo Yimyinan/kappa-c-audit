@@ -1,0 +1,131 @@
+{
+ "rows": [
+  {
+   "seed": 42,
+   "arm": "k203",
+   "n_s": 203,
+   "d_local": -236.74821123717453,
+   "d_rest": -481.81438487015356,
+   "S": 5477.798919063782,
+   "observed_dkappa": 0.013286691106418558,
+   "predicted_dkappa": -8.773576319840599
+  },
+  {
+   "seed": 42,
+   "arm": "k1000",
+   "n_s": 1000,
+   "d_local": 0.0014367534715613148,
+   "d_rest": -0.0008023078871647748,
+   "S": 5477.798919063782,
+   "observed_dkappa": 0.002597742788911228,
+   "predicted_dkappa": 0.00026228663972332746
+  },
+  {
+   "seed": 42,
+   "arm": "k2027",
+   "n_s": 2027,
+   "d_local": -0.0005322432167147685,
+   "d_rest": -0.0017955158328174412,
+   "S": 5477.798919063782,
+   "observed_dkappa": 0.00626089062671642,
+   "predicted_dkappa": -0.00019695082207676668
+  },
+  {
+   "seed": 43,
+   "arm": "k203",
+   "n_s": 203,
+   "d_local": -0.00037071751442715344,
+   "d_rest": -3.068507727377624e-05,
+   "S": 5529.625512548587,
+   "observed_dkappa": 0.00012639177180306937,
+   "predicted_dkappa": -1.3609539245999873e-05
+  },
+  {
+   "seed": 43,
+   "arm": "k1000",
+   "n_s": 1000,
+   "d_local": 0.0015358586655890032,
+   "d_rest": 7.003303557265092e-05,
+   "S": 5529.625512548587,
+   "observed_dkappa": -0.0005250615515699497,
+   "predicted_dkappa": 0.0002777509366780122
+  },
+  {
+   "seed": 43,
+   "arm": "k2027",
+   "n_s": 2027,
+   "d_local": 0.0028293290944667285,
+   "d_rest": 0.002104616465173309,
+   "S": 5529.625512548587,
+   "observed_dkappa": -0.008078386968307205,
+   "predicted_dkappa": 0.0010371498144800754
+  },
+  {
+   "seed": 44,
+   "arm": "k203",
+   "n_s": 203,
+   "d_local": 0.009844548400907545,
+   "d_rest": 0.0014220821041286897,
+   "S": 5438.720877359907,
+   "observed_dkappa": -0.005681637411900642,
+   "predicted_dkappa": 0.00036744730432908826
+  },
+  {
+   "seed": 44,
+   "arm": "k1000",
+   "n_s": 1000,
+   "d_local": 0.004647554554851002,
+   "d_rest": 0.001508695927600258,
+   "S": 5438.720877359907,
+   "observed_dkappa": -0.0062713017825717365,
+   "predicted_dkappa": 0.000854530809661084
+  },
+  {
+   "seed": 44,
+   "arm": "k2027",
+   "n_s": 2027,
+   "d_local": 0.0016881344544903217,
+   "d_rest": -0.00036304433789519845,
+   "S": 5438.720877359907,
+   "observed_dkappa": 0.0006057438478822563,
+   "predicted_dkappa": 0.0006291642127648467
+  }
+ ],
+ "effective": {
+  "all genes": {
+   "N_eff": 20527,
+   "mean_baseline_r2": 0.2669,
+   "support_fraction": 0.0099,
+   "dkappa_at_100pct_readout": 0.0099,
+   "fraction_of_transcriptome_for_50pct": 15.4
+  },
+  "non-constant in this dataset": {
+   "N_eff": 17328,
+   "mean_baseline_r2": 0.1315,
+   "support_fraction": 0.0117,
+   "dkappa_at_100pct_readout": 0.0117,
+   "fraction_of_transcriptome_for_50pct": 7.6
+  },
+  "baseline R2 > 0.05": {
+   "N_eff": 16219,
+   "mean_baseline_r2": 0.3295,
+   "support_fraction": 0.0125,
+   "dkappa_at_100pct_readout": 0.0125,
+   "fraction_of_transcriptome_for_50pct": 19.0
+  },
+  "baseline R2 > 0.10": {
+   "N_eff": 10913,
+   "mean_baseline_r2": 0.454,
+   "support_fraction": 0.0186,
+   "dkappa_at_100pct_readout": 0.0186,
+   "fraction_of_transcriptome_for_50pct": 26.2
+  },
+  "top 5,000 by baseline R2": {
+   "N_eff": 5000,
+   "mean_baseline_r2": 0.7999,
+   "support_fraction": 0.0406,
+   "dkappa_at_100pct_readout": 0.0406,
+   "fraction_of_transcriptome_for_50pct": 46.2
+  }
+ }
+}

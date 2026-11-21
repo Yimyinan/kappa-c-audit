@@ -1,0 +1,294 @@
+{
+  "Fig6": {
+    "dose": {
+      "5": {
+        "42": 0.0031659559231099646,
+        "43": 0.00011307469946348105,
+        "44": 0.0040080709477647285
+      },
+      "20": {
+        "42": 0.01195839778670141,
+        "43": 0.011528773093216989,
+        "44": 0.010829691135827943
+      },
+      "40": {
+        "42": 0.014513945733421707,
+        "43": 0.012906725573072665,
+        "44": 0.01855677783289985
+      }
+    },
+    "time": {
+      "15": {
+        "42": 0.01195839778670141,
+        "43": 0.011528773093216989,
+        "44": 0.010829691135827943
+      },
+      "45": {
+        "42": 0.01318000238791306,
+        "43": 0.016208774244595523,
+        "44": 0.01377068211011526
+      }
+    },
+    "summary": {
+      "5": {
+        "mean": 0.0024290338567793915,
+        "sd": 0.0020493998005401215
+      },
+      "20": {
+        "mean": 0.01143895400524878,
+        "sd": 0.0005696887548074648
+      },
+      "40": {
+        "mean": 0.015325816379798074,
+        "sd": 0.0029112064671764962
+      }
+    },
+    "time_summary": {
+      "15": {
+        "mean": 0.01143895400524878,
+        "sd": 0.0005696887548074648
+      },
+      "45": {
+        "mean": 0.014386486247541283,
+        "sd": 0.0016055453253369047
+      }
+    }
+  },
+  "Fig7": {
+    "observed_points": [
+      {
+        "dose": 5.0,
+        "seed_index": 1,
+        "kappa": 0.9867133088935814,
+        "delta_kappa": -0.013286691106418558
+      },
+      {
+        "dose": 5.0,
+        "seed_index": 2,
+        "kappa": 0.9998736082281969,
+        "delta_kappa": -0.00012639177180306937
+      },
+      {
+        "dose": 5.0,
+        "seed_index": 3,
+        "kappa": 1.0056816374119006,
+        "delta_kappa": 0.005681637411900642
+      },
+      {
+        "dose": 20.0,
+        "seed_index": 1,
+        "kappa": 1.0041289881007818,
+        "delta_kappa": 0.004128988100781772
+      },
+      {
+        "dose": 20.0,
+        "seed_index": 2,
+        "kappa": 1.0042013419202171,
+        "delta_kappa": 0.00420134192021715
+      },
+      {
+        "dose": 20.0,
+        "seed_index": 3,
+        "kappa": 1.014482456644695,
+        "delta_kappa": 0.014482456644695052
+      },
+      {
+        "dose": 40.0,
+        "seed_index": 1,
+        "kappa": 0.9930405942808945,
+        "delta_kappa": -0.0069594057191054715
+      },
+      {
+        "dose": 40.0,
+        "seed_index": 2,
+        "kappa": 1.0026625794653883,
+        "delta_kappa": 0.0026625794653882817
+      },
+      {
+        "dose": 40.0,
+        "seed_index": 3,
+        "kappa": 1.0111541685265895,
+        "delta_kappa": 0.011154168526589459
+      }
+    ],
+    "support_fraction_varying": 0.011022622345337027,
+    "observed_delta_definition": "delta_kappa = kappa - 1",
+    "legacy_generator_conversion": "1 - kappa (sign inconsistent with y-axis; corrected)",
+    "panel_b_local_percent": [
+      0.04128751668604401,
+      -0.07854497696249407
+    ],
+    "panel_b_global_percent": [
+      0.3320695000645911,
+      -1.5644163114154068
+    ]
+  },
+  "Fig8": {
+    "seed": 42,
+    "epochs": [
+      2.0,
+      5.0,
+      10.0,
+      20.0,
+      45.0
+    ],
+    "kappa_varying": [
+      0.8616181955605707,
+      0.8914559261627114,
+      0.9197864617006202,
+      0.9505563742519604,
+      1.0
+    ],
+    "kappa_all": [
+      0.9412800837193224,
+      0.9539412066903704,
+      0.9659627776021797,
+      0.9790194557998494,
+      1.0
+    ],
+    "mean_r2_varying": [
+      0.1172507135521491,
+      0.12131109113226933,
+      0.12516636661768682,
+      0.12935359736695695,
+      0.1360819840577595
+    ],
+    "linear_slope": 7.348511317821137,
+    "linear_intercept": -1.7365240593075027e-15,
+    "r2_at_kappa_0_5_extrapolated": 0.0680409920288799,
+    "note": "Single-seed descriptive calibration; extrapolation is not an observed condition."
+  },
+  "Fig9": {
+    "lambda": [
+      0.1,
+      1.0,
+      10.0
+    ],
+    "bn_C": [
+      96.72680295157357,
+      96.87274009100956,
+      96.71824200550041
+    ],
+    "ln_C": [
+      95.64767776340486,
+      95.7979364508602,
+      95.38021844389566
+    ],
+    "bn_kappa_gap": [
+      0.00996159624728886,
+      0.008985220498300224,
+      0.010414602402891287
+    ],
+    "ln_kappa_gap": [
+      0.02114468611340035,
+      0.019879195098799672,
+      0.024005305706394083
+    ],
+    "target_kappa_gap": 2.0,
+    "celloracle": [
+      {
+        "tf": "GATA1",
+        "kappa_DK": 0.005994885384077643
+      },
+      {
+        "tf": "GFI1B",
+        "kappa_DK": 0.00942724149541481
+      },
+      {
+        "tf": "NFE2",
+        "kappa_DK": 0.00950453442219347
+      },
+      {
+        "tf": "KLF1",
+        "kappa_DK": 0.010744470578572406
+      },
+      {
+        "tf": "TAL1",
+        "kappa_DK": 0.01160670401997928
+      },
+      {
+        "tf": "GATA2",
+        "kappa_DK": 0.012008674498554308
+      },
+      {
+        "tf": "LMO2",
+        "kappa_DK": 0.018908450349428684
+      },
+      {
+        "tf": "RUNX1",
+        "kappa_DK": 0.018922644099743056
+      }
+    ],
+    "safety_factor": 24.840512768088892,
+    "changes": [
+      "Panel B now uses log scale so target=2 is visible; original linear 0-0.05 axis clipped it.",
+      "Panel D uses log scale to show small values relative to 0.5 threshold.",
+      "Panel D is explicitly labeled kappa_DK, distinct from Panel B kappa_gap."
+    ]
+  },
+  "Fig10": {
+    "datasets": {
+      "hematopoiesis": {
+        "cells_reported_in_source_json": 3000,
+        "genes": 20527,
+        "values": {
+          "grn_spectral": {
+            "block_share": 0.05268576686689593,
+            "n_covered": 1999
+          },
+          "grn_indicator": {
+            "block_share": 0.056187273355951584,
+            "n_covered": 1999
+          },
+          "permuted": {
+            "block_share": 0.039054929306572235,
+            "n_covered": 1999
+          },
+          "pca32": {
+            "block_share": 0.6068036999478046,
+            "n_covered": 1846
+          },
+          "nmf32": {
+            "block_share": 0.5735800151200634,
+            "n_covered": 1827
+          }
+        },
+        "grn_spectral_over_pca": 0.08682505869925941,
+        "grn_spectral_over_nmf": 0.09185425830407916,
+        "chance": 0.016008004002001
+      },
+      "melanoma": {
+        "cells_reported_in_source_json": 4000,
+        "genes": 22097,
+        "values": {
+          "grn_spectral": {
+            "block_share": 0.034648050346704616,
+            "n_covered": 2111
+          },
+          "grn_indicator": {
+            "block_share": 0.038381792321740806,
+            "n_covered": 2111
+          },
+          "permuted": {
+            "block_share": 0.028762926722019296,
+            "n_covered": 2111
+          },
+          "pca32": {
+            "block_share": 0.18842506447777826,
+            "n_covered": 2012
+          },
+          "nmf32": {
+            "block_share": 0.16060337272052755,
+            "n_covered": 1999
+          }
+        },
+        "grn_spectral_over_pca": 0.18388238551347716,
+        "grn_spectral_over_nmf": 0.2157367542149759,
+        "chance": 0.015158692562766462
+      }
+    },
+    "interpretation": "Block shares are reported within each basis-specific covered-gene block; covered-gene counts are displayed to make denominator differences explicit.",
+    "source_discrepancy": "The supplied hematopoiesis JSON reports n_cells=3,000, whereas the legacy make_fig_paper3.py label says 12k cells. The figure therefore omits a hematopoietic cell count pending source reconciliation.",
+    "caption_caution": "Avoid a blanket one-twentieth claim: GRN-spectral/data-fitted ratios differ between datasets."
+  }
+}
