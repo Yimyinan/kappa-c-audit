@@ -5,6 +5,6 @@
   "main_manuscript_pages": 41,
   "supporting_information_pages": 59,
   "author_summary_words": 157,
-  "figshare_doi": "[TO BE FILLED AFTER FIGSHARE PUBLISHES V49]",
+  "archive_note": "Cite the versioned DOI printed on the Figshare record for this snapshot.",
   "github_repository": "https://github.com/Yimyinan/kappa-c-audit"
 }
