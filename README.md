@@ -70,8 +70,8 @@ use `code/rebase_paths.py --root <checkout>` to retarget them.
 
 ## Citation
 
-Use `CITATION.cff`. After publication, cite the V49 Figshare DOI recorded in
-`docs/V49_MANUSCRIPT_METADATA.json` together with the article.
+Use `CITATION.cff`. Cite the versioned DOI printed on the Figshare record for
+this snapshot together with the article.
 
 ## Licence
 
